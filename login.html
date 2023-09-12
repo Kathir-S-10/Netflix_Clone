@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix_clone</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <img src="/images/logo_org.png" alt="" id="logo">
+
+
+    <div class="log_box">
+        <h1 style="position: relative; left: 150px; width: fit-content;">Sign In</h1>
+        <input type="text" id="input01" placeholder="Email or Phone Number">
+        <input type="text" id="input02" placeholder="Password"><br><br>
+        <button id="input03" onclick="Change()">Sign In</button>
+
+        <h6 style="position: relative; left: 104px; top: 30px; color: rgb(198, 191, 191); width: fit-content;">Remember Me</h6>
+        <h6 style="position: relative; left: 250px; top: -6px; color: rgb(198, 191, 191); width: fit-content;">Need Help?</h6>
+        <h5 style="position: relative;left: 110px; color: rgb(198, 191, 191); width: fit-content;">New to Netflix?<a href=""
+                style="position: relative;left: 5px; color: aliceblue; width: fit-content;">Sign Up Now</a></h5>
+
+
+    </div>
+    <script>
+        function Change(){
+        let email=document.getElementById("input01").value;
+        let password=document.getElementById("input02").value;
+
+        
+        if(email=="netflix@gmail.com" && password=="netflixclone"){
+            alert('Done');
+            window.location="mainpage.html";
+        }else{
+            alert("enter correct Email and Password");
+        }
+    }
+
+    </script>
+
+</body>
+
+</html>

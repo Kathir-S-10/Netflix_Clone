@@ -1,0 +1,128 @@
+body{
+    background-image: url('/images/net_bg_01.jpg');
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+#logo{
+    position: relative;
+    height: 40px;
+}
+
+.log_box{
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 400px;
+    left: 400px;
+    top: 100px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 40px;
+    color: white;
+}
+
+#input01{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    height: 25px;
+    width: 200px;
+
+}
+
+#input02{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    height: 25px;
+    width: 200px;
+}
+
+#input03{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 32px;
+    width: 210px;
+    background-color: red;
+    color: aliceblue;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 500px) {
+
+    body{
+        background-image: url('net_bg_01.jpg');
+        position: relative;
+
+    }
+
+    .log_box{
+        position: absolute;
+        border: 1px solid rgb(0, 0, 0);
+        height: 400px;
+        width: 400px;
+        left: 40px;
+        top: 90px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.8;
+        border-radius: 40px;
+        color: white;
+    }
+    
+  }
+
+  @media only screen and (min-width: 550px) and (max-width:700px) {
+
+    body{
+        background-image: url('net_bg_01.jpg');
+        position: relative;
+
+    }
+
+    .log_box{
+        position: absolute;
+        border: 1px solid rgb(0, 0, 0);
+        height: 400px;
+        width: 400px;
+        left: 150px;
+        top: 90px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.8;
+        border-radius: 40px;
+        color: white;
+    }
+    
+  }
+
+
+  @media only screen and (min-width: 750px) and (max-width:900px) {
+
+    body{
+        background-image: url('net_bg_01.jpg');
+        position: relative;
+
+    }
+
+    .log_box{
+        position: absolute;
+        border: 1px solid rgb(0, 0, 0);
+        height: 400px;
+        width: 400px;
+        left: 250px;
+        top: 90px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.8;
+        border-radius: 40px;
+        color: white;
+    }
+    
+  }
+
+  
